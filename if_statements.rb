@@ -89,22 +89,15 @@ puts "I don't have enough money for a gumball"
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
+cups_of_flower = 2
 has_sauce = true
 
-If cups_of_flour = 1 and has_sauce = true, print "I cannot make pizza"
-
-cups_of_flour = 5
-has_sauce = false
-
-If cups_of_flour = 5 and has_sauce = false, print "I cannot make pizza"
-
-cups_of_flour = 2
-has_sauce = true
-
-If cups_of_flour = 2 and has_sauce = true, print "I can make pizza"
-
-cups_of_flour = 3
-has_sauce = true
-
-If cups_of_flour = 3 and has_sauce = true, print "I can make pizza"
+if
+  cups_of_flower >= 2 && has_sauce = true, print "I can make pizza"
+elsif
+  cups_of_flower >= 2 && has_sauce = false, print "I cannot make pizza"
+elsif
+  cups_of_flower < 2 && has_sauce = true, print "I cannot make pizza"
+elsif
+  cups_of_flower < 2 && has_sauce = false, print "I cannot make pizza"
+end
